@@ -1,0 +1,67 @@
+#input {
+  position: relative;
+}
+
+#url {
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  padding: 0 5px;
+  font-size: 14px;
+  line-height: 30px;
+  background-color: #efefef;
+  border: 0 none;
+  outline: 0;
+  cursor: pointer;
+}
+
+#copied {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+  background-color: #fb0;
+}
+
+#copied.visible {
+  display: block;
+}
+
+#qr {
+  position: relative;
+  width: 270px;
+  height: 270px;
+  min-height: 270px;
+  margin-top: 10px;
+  padding-top: 10px;
+  text-align: center;
+  background: #fff url('../images/loading.gif') center center no-repeat;
+  border-top: 1px solid #ccc;
+}
+
+#qr img {
+  opacity: 0.85;
+}
+
+#qr.done {
+  background: none;
+}
+
+#qr.error {
+  position: relative;
+  text-align: center;
+  background: #f3e7e7;
+  border: 1px solid #b00 !important;
+}
+
+#qr.error:before {
+  width: 270px;
+  height: 270px;
+  color: #b00;
+  line-height: 270px;
+  content: 'Something went wrong.';
+}

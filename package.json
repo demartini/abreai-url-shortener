@@ -1,0 +1,57 @@
+{
+  "private": true,
+  "name": "abreai-url-shortener",
+  "description": "Abre.ai! URL Shortener",
+  "version": "2.0.0",
+  "author": {
+    "name": "Iolar Demartini Junior",
+    "email": "iolardemartini@gmail.com",
+    "url": "https://demartini.dev"
+  },
+  "contributors": [
+    {
+      "name": "Abre.ai! URL Shortener Contributors",
+      "url": "https://github.com/demartini/abreai-url-shortener/graphs/contributors"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demartini/abreai-url-shortener.git"
+  },
+  "keywords": [
+    "abreai",
+    "chrome",
+    "extension",
+    "shortener",
+    "url"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/demartini/abreai-url-shortener/issues"
+  },
+  "homepage": "https://github.com/demartini/abreai-url-shortener#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "eslint": "^7.5.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "standard-version": "^8.0.2",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2"
+  },
+  "scripts": {
+    "release": "standard-version"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}

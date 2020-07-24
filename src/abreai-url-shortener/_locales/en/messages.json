@@ -1,0 +1,14 @@
+{
+  "name": {
+    "message": "Abre.ai! URL Shortener"
+  },
+  "short_name": {
+    "message": "Abre.ai!"
+  },
+  "description": {
+    "message": "Shorten URL of pages to send via IM, Twitter, email or wherever you want."
+  },
+  "copied": {
+    "message": "Copied to clipboard!"
+  }
+}

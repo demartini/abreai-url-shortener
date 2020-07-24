@@ -1,0 +1,29 @@
+{
+  "extends": [
+    "stylelint-prettier/recommended",
+    "stylelint-config-rational-order"
+  ],
+  "rules": {
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "except": ["blockless-after-same-name-blockless", "first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ],
+    "declaration-empty-line-before": [
+      "always",
+      {
+        "except": ["after-declaration", "first-nested"],
+        "ignore": ["after-comment", "inside-single-line-block"]
+      }
+    ],
+    "rule-empty-line-before": [
+      "always-multi-line",
+      {
+        "except": ["first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ]
+  }
+}

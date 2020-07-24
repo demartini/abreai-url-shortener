@@ -1,0 +1,14 @@
+{
+  "name": {
+    "message": "Abre.ai! Encurtador de URL"
+  },
+  "short_name": {
+    "message": "Abre.ai!"
+  },
+  "description": {
+    "message": "Encurte URL das páginas para enviar por IM, Twitter, e-mail ou onde quiser."
+  },
+  "copied": {
+    "message": "Copiado para área de transferência!"
+  }
+}
