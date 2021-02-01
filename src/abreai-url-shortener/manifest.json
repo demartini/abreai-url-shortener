@@ -4,7 +4,7 @@
   "description": "__MSG_description__",
   "homepage_url": "https://abre.ai",
   "author": "Iolar Demartini Junior",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "manifest_version": 2,
   "default_locale": "pt_BR",
   "browser_action": {
@@ -23,5 +23,9 @@
     "48": "assets/images/icons/icon-48.png",
     "128": "assets/images/icons/icon-128.png"
   },
-  "permissions": ["tabs", "http://*/*", "https://*/*"]
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
 }

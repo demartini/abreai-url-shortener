@@ -2,7 +2,7 @@
   "private": true,
   "name": "abreai-url-shortener",
   "description": "Abre.ai! URL Shortener",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "Iolar Demartini Junior",
     "email": "iolardemartini@gmail.com",
