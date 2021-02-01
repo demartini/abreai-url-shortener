@@ -8,7 +8,14 @@ async function shortenUrl(longUrl) {
     throw new Error('Invalid input URL')
   }
 
-  const response = await fetch(`https://abre.ai/generate.txt?url=${longUrl}`)
+  const response = await fetch('https://abre.ai/_/generate.txt', {
+    method: 'POST',
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ url_translation: { url: longUrl, token: '' } })
+  })
 
   return response.text()
 }
