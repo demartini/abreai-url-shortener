@@ -8,5 +8,11 @@
     { "type": "ci", "section": "Continuous Integration" },
     { "type": "test", "section": "Tests", "hidden": true },
     { "type": "build", "section": "Build System", "hidden": true }
+  ],
+  "packageFiles": "package.json",
+  "bumpFiles": [
+    "package.json",
+    "package-lock.json",
+    "src/abreai-url-shortener/manifest.json"
   ]
 }
