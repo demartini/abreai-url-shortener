@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/demartini/abreai-url-shortener#readme",
   "devDependencies": {
-    "@commitlint/cli": "^12.0.1",
+    "@commitlint/cli": "^16.0.3",
     "@commitlint/config-conventional": "^12.0.1",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
